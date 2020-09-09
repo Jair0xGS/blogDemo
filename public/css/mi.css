@@ -1,0 +1,334 @@
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+.br-custom{
+    background: #fff !important; 
+}
+.nombreUsuario{
+    font-size: 26px !important;
+    line-height: 30px;
+    
+    font-weight: 600;
+}
+.nickUsuario{
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    line-height: 24px !important;
+    color: #666;
+}
+.descripcionUsuario{
+    font-size: 14px !important;
+    margin: 0% !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    font-weight: 600 !important;
+}
+.a-custom{
+    text-decoration: none !important;
+}
+.listUsersName{
+    color: #24292e!important;
+    font-size: 16px!important;
+    
+}
+.listUsersName:hover{
+    color: #0366d6 !important;
+}
+.listUsersNick{
+    color: #586069!important;
+    font-size: 14px !important;
+}
+.listUsersNick:hover{
+    color: #0366d6 !important;
+}
+.listUsersDesc{
+    color: #586069!important;
+    font-size: 12px !important;
+}
+.text-normal {
+    font-weight: 400!important;
+}
+.text-grey {
+    color: #586069!important;
+}
+.listProyectDescription {
+    color: #586069!important;
+    font-size: 14px !important;
+    padding: 0%;
+    margin-bottom: 10px;
+}
+.listProyectVarious{
+    color: #586069!important;
+    font-size: 12px !important;
+    padding: 0%;
+    margin-bottom: 10px;
+}
+.colorSvg{
+    vertical-align: -10%;
+}
+.listProyectName{
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+
+.ccustomJumbo{
+    color: white;
+    background: url(../img/simple-codelines.svg),#2b3137;
+    background-position: center 10%;
+    background-size: cover; 
+    border-radius: 0%;
+    height: 700px;
+}
+
+.muted-link{
+    color: #586069!important;
+    text-decoration: none !important;
+}
+.svgC{
+    vertical-align: -10%;
+    fill:#586069;
+}
+.muted-link:hover{
+    color: #0366d6!important;
+}
+.svgC:hover{
+    fill:#0366d6;
+}
+.noPadding{
+    padding: 0% !important;
+}
+.noMargin{
+    margin: 0% !important;
+}
+.imgT{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+.box{
+    width: 250px;        
+    border: 5px solid black;
+}  
+.divT{
+    padding: 0% !important;
+}
+
+@media screen and (max-width: 990px) {
+    
+    .opT{
+        display: none;
+    }
+    .cajas{
+        display: none;
+    }
+    .full{
+        width: 100% !important;
+    }
+    .crz{
+        display: none;
+    }
+    .cl{
+        display: none;
+    }
+  }
+  
+
+
+
+
+
+
+.cajas{
+    filter: brightness(0%);
+    ;
+    position: absolute;
+    width: 25%;
+}
+.cr{
+    right: 20px;
+}
+.crz{
+    right: 0px;
+}
+.cl{
+    left: 0;
+}
+.subMenuBox{
+    align-items: center;
+    padding: 80px 20px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    
+    width: 100%;
+    background: #343A40;
+    
+    display: flex;
+    justify-content: center;
+}
+.subMenuSvg{
+    position: absolute;
+            top: 0;
+            height: 100%;
+            min-height: 400px;
+}
+
+
+
+
+
+/* ****************clases para listado de blogs************* */
+.centrador{
+    
+    max-width: 1050px;
+    margin: 0 auto;
+    clear: both;
+}
+.articulos{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.articulo{
+    margin-bottom: 20px !important;
+    flex: 0 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin:auto;
+    border-radius: 3px;
+}
+
+.cover{
+    text-decoration: none;
+    display: block;
+    /*width: 425px;*/
+    height: 220px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    border-radius: 2px 2px 0 0;
+}
+.overlay{
+    background: linear-gradient(123deg, transparent, rgba(0,0,0,0.8));
+    display: block;
+    height: 100%;
+    border-radius: 2px 2px 0 0;
+}
+.Bltitulo{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+.informacion-deArticulo{
+    padding: 25px;
+}
+.autor{
+    float: left;
+}
+.fecha{
+    
+    color: #888;
+    float: right;
+}
+.descripcion{
+    clear: both;
+    margin-top: 46px;
+    font-size: 18px;
+    height: 85px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/*********************************************************************************************/
+/****************************clases para articulo principal************************************/
+.blogHeader{
+    font-size: 16px;
+    line-height: 1.58;
+    color: #222;
+}
+.mainCover{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 400px;
+}
+.centrar{
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8));
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.cabezeraBlog{
+    box-shadow: none;
+    padding: 100px 155px 50px;
+    color: #fff;
+}
+.cuerpoBlog{
+    
+    
+    padding-bottom: 55px;
+    
+    padding: 50px 75px;
+    max-width: 1050px;
+    margin: 0 auto;
+    clear: both;
+}
+/*********************************************************************************************/
+
+
+.centrarBloque{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.caracteristicasProyecto{
+    margin: 2px  1px;
+}
+.bordecito
+{
+    color: white;
+    text-shadow:
+    -1px -1px 8px #000,
+    1px -1px 8px #000,
+    -1px 1px 8px #000,
+    1px 1px  8px #000;  
+}
